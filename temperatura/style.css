@@ -1,0 +1,165 @@
+*{
+    color: #fff;
+    margin: 0;
+}
+
+header{
+    color: #515151;
+    text-shadow: 0 1px 0 rgb(50, 161, 235);
+    text-align: center;
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, button{
+    border: 0;
+    outline: 0;
+    padding: 10px;
+}
+
+form input{
+    color: #000;
+}
+
+form button{
+    background-color: #515151;
+    border-radius: 12px;
+    padding: 0 30px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #eee;
+    font-weight: bold;
+}
+
+
+form{
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+
+article h1{
+    margin: 20px;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+article h4{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#res article{
+    width: 300px;
+    height: auto;
+}
+
+#res article img{
+    width: 150px;
+}
+
+.thunderstorm{
+    background: linear-gradient( rgb(37, 42, 88), #3a3737);
+}
+
+.clouds{
+    background: linear-gradient( rgb(33, 123, 196), #747272);
+}
+
+.clear{
+    background: linear-gradient( rgb(110, 158, 197), #bdb8b8);
+}
+
+.smoke{
+    background: linear-gradient(#9b9898, rgb(115, 119, 122));
+}
+
+.local{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.local i{
+    padding-right: 10px;
+}
+
+article p{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 200px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+footer div{
+    margin-right: 40px;
+}
+
+.me p{
+    margin-bottom: 10px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.insta{
+    background: linear-gradient(#e434db, #ffef08);
+    text-shadow: 0 1px 0 #000;
+}
+
+.git{
+    background-color: #555;
+    text-shadow: 0 1px 0 #000;
+}
+
+.link{
+    background: linear-gradient(#3454e4, #0c4692);
+    text-shadow: 0 1px 0 #000;
+}
